@@ -1,0 +1,6 @@
+body {
+    background-image: url('images/background-dino.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Opsional: membuat background tidak ikut scroll */
+}
