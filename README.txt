@@ -26,7 +26,10 @@
     <h1 class="text-3xl md:text-5xl font-bold mt-6 text-green-700">Welcome to Follower Dino 🦖</h1>
     <p class="text-lg md:text-xl mt-3">The Cutest Community Token on Solana!</p>
     <div class="mt-6 flex justify-center">
-      <button class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg shadow-lg transition">Buy $FDINO</button>
+     <div class="contract-box">
+      <p>Contract Address:</p>
+      <input type="text" value="YOUR_CA_HERE" id="contract" readonly style="padding: 10px; width: 250px;" />
+      <button class="copy-btn" onclick="copyCA()">Copy CA</button>
     </div>
   </section>
 
@@ -68,3 +71,4 @@
 
 </body>
 </html>
+
